@@ -1,0 +1,12 @@
+[{
+    
+    "state_name":"West Bengal",
+    "district":[{
+        "_id":"100001",
+        "district_name":"North 24 pgs"
+    },
+    {
+        "_id":"100002",
+        "district_name":"South 24 pgs"
+    }]
+}]

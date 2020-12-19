@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.box {
+  border: 1px solid black;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #cfe2f3;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+}
+.box-5 {
+  position: absolute;
+  transform: translate(calc(50% + 5px), -50%);
+}

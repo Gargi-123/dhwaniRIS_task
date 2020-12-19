@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+}
+
+/* 'Orbitron', sans-serif; */
+
+.mastercard {
+  background-color: #227bce;
+  color: white;
+}
+
+.visa {
+  background-color: rgb(80, 94, 107);
+  color: rgb(255, 255, 255);
+}
+
+.amex {
+  background-color: rgb(223, 158, 73);
+}
+
+.unknown {
+  background-color: #fe4e57;
+  color: white;
+}
+
+.cardNo {
+  clear: both;
+  margin: 20px 15px 15px 15px;
+  height: 30px;
+  /* display: inline-block; */
+}
+
+.cardNo p {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.details {
+  display: flex;
+  clear: both;
+  margin: 0px 0px 0px 30px;
+  height: 20px;
+}
+
+.valid {
+  display: flex;
+}
+
+small {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.details small,
+div {
+  flex: 1;
+}
+
+.chip {
+  float: left;
+  margin: 30px 30px 25px 30px;
+}
+
+.type {
+  float: right;
+  margin: 30px 30px 25px 25px;
+}
+
+.from {
+  position: relative;
+  width: 50%;
+  height: 50px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: #f6425b;
+  bottom: 3px;
+  filter: opacity(0.4) drop-shadow(0 0 0 #f6425b);
+}
+
+.from input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-top: 12px;
+  padding-left: 30px;
+  outline: none;
+}
+
+.from label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.from label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid #f6425b;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.input_lable {
+  position: absolute;
+  padding-left: 25px;
+  bottom: 3px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.from input:focus + label .input_lable,
+.from input:valid + label .input_lable {
+  transform: translateY(-150%) translateX(-24px);
+  font-size: 12px;
+  color: #f6425b;
+}
+
+.from input:focus + label::after,
+.from input:valid + label::after {
+  transform: translateX(0%);
+}
