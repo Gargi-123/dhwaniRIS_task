@@ -18,12 +18,16 @@
 ### `Installation and Setup Instructions`
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
+
 Installation:(both for frontend(task-1) and backend)
 `npm install`
+
 To Run Test Suite:
 `npm test`
+
 To Start Server:(for frontend task-1)
 `npm start`
+
 To Visit App:(task-1 frontend)
 `localhost:3000/`
 
