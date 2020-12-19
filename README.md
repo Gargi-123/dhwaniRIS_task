@@ -1,10 +1,10 @@
 #MERN TASK MASAI 
 <table>
    <tr align=center>
-     <td  colspan=3>Task 1 <img src="./screenshots/CreditCard.png" width=900 ></td>
+     <td  colspan=3>Task 1 <img src="./screenshot/CreditCard.png" width=900 ></td>
   </tr>
    <tr align=center>
-     <td  colspan=3>Task 2 <img src="./screenshots/boxtask.png" width=900 ></td>
+     <td  colspan=3>Task 2 <img src="./screenshot/boxtask.png" width=900 ></td>
   </tr>
 </table>
 <hr/>
