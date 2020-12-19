@@ -8,7 +8,7 @@
   </tr>
 </table>
 <hr/>
-### `Functionalities`
+#### FUCTIONALITIES
 
 - Task-1(frontend) : User can add credit card number and can create a number of list of the credit card
 - Task-2(frontend) :User can click any boxes and it will show about of all the boxes.
